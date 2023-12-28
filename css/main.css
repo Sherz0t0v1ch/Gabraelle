@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+background: var(--cream-bg, #F2EAE2);
+padding-top: 130px;
+}
+.header{
+    width: 300px;
+height: 450px;
+flex-shrink: 0;
+background: #FFF;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 24px;
+}
+.header__p{
+    color: var(--Aurometal-Saurus, #6C7289);
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 5px;
+width: 230px;
+}
+.header__h1{
+    color: var(--Gunmetal, #1C232B);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 236px;
+}
+.header__p2{
+    color: var(--Aurometal-Saurus, #6C7289);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    width: 237px;
+}
+.header__div{
+    display: flex;
+    align-items: center;
+    column-gap: 19px;
+    width: 236px;
+}
+.div__h1{
+    color: var(--Deep-Aquamarine, #3D8168);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.div__p{
+    color: var(--Aurometal-Saurus, #6C7289);
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 23px;
+}
+.header__div2{
+    width: 236px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+background: var(--Deep-Aquamarine, #3D8168);
+display: flex;
+align-items: center;
+justify-content: center;
+column-gap: 11px;
+}
+.card{
+    color: var(--Pure-White, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@media (max-width: 343px){
+    .start__img{
+        width: 343.697px;
+        height: 458px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: url('../img/Bitmap\ \(18\).png') 0px 0px / 100% 100% no-repeat;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        width: 343px;
+        height: 611px;
+        flex-shrink: 0;
+    }
+}
